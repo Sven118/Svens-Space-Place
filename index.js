@@ -26,10 +26,7 @@
     scene.add(sphere);
 
     // add the box to the scene
-    sim.scene.add(box);
 
     // export important objects
-    exports.sim = sim;
-    exports.box = box;
 }
 )(window.MyProject = window.MyProject || {});
